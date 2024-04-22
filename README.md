@@ -18,12 +18,9 @@ Cucumber/Playwright/Typescript API test automation
 
 #### 2. Cucumber and Playwright
 
-Cucumber is the industry standard for designing BDD-based frameworks and allows the code of tests to be easily readable and
-maintainable. Cucumber scenarios are also the best when it comes to understanding of how functionality works and tested.
-
 Cucumber with Playwright make a potent and flexible test automation solution which allows the following:
 
-- Easy grouping of scenarios into sets (features)
+- Easy grouping of scenarios into sets (features and tag-based sets)
 - Selective test execution (Cucumber tags and tag expressions)
 - Execution of setUp/tearDown code for the specific scenarios
 - Support for UI, API or hybrid UI+API automated tests
