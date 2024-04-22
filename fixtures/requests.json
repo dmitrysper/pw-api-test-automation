@@ -1,0 +1,72 @@
+{
+  "STAGING": {
+    "get ip address": {
+      "url": "http://whatismyip.akamai.com",
+      "method": "get"
+    },
+    "test get": {
+      "url": "https://httpbin.org",
+      "endpoint": "get?firstname=$1&lastname=$2",
+      "method": "get"
+    },
+    "test post": {
+      "url": "https://httpbin.org",
+      "endpoint": "post",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {
+        "firstname": "Steve",
+        "lastname": "Stevenson"
+      }
+    },
+    "test put": {
+      "url": "https://httpbin.org",
+      "endpoint": "put",
+      "method": "put",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {
+        "firstname": "$1",
+        "lastname": "$2"
+      }
+    }
+  },
+  "TEST": {
+    "get ip address": {
+      "url": "http://whatismyip.akamai.com",
+      "method": "get"
+    },
+    "test get": {
+      "url": "https://httpbin.org",
+      "endpoint": "get?firstname=$1&lastname=$2",
+      "method": "get"
+    },
+    "test post": {
+      "url": "https://httpbin.org",
+      "endpoint": "post",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {
+        "firstname": "Steve",
+        "lastname": "Stevenson"
+      }
+    },
+    "test put": {
+      "url": "https://httpbin.org",
+      "endpoint": "put",
+      "method": "put",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {
+        "firstname": "$1",
+        "lastname": "$2"
+      }
+    }
+  }
+}
