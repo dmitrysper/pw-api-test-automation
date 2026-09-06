@@ -13,6 +13,7 @@
     "@cucumber/pretty-formatter": "^1.0.0",
     "@playwright/test": "^1.43.1",
     "multiple-cucumber-html-reporter": "^3.6.2",
-    "ts-node": "^10.9.1"
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
   }
 }
